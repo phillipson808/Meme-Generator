@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Meme Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Chivo:900" rel="stylesheet">
+    
+</head>
+<body>
+    <div id = "form">
+        <h1>Meme Generator</h1>
+        <p>You should probably get back to work...</p>
+        <div class = "input">
+            <p>Enter Image URL:</p>
+            <input id = "imageurl" type="text" value = "">
+        </div>
+        <div class="input">
+            <p>Enter Top Text</p>
+            <input class = "topText" type="text" required>
+        </div>
+       
+        <div class="input">
+        <p>Enter Bottom Text</p>
+        <input class = "bottomText" type="text">
+        </div>
+        <br>
+        <button id = "button">Memeify Me</button>
+    </div>
+
+   
+<div id = "container">
+    <div id="boxes">
+        <div id = "imageBox">
+            <h1 class= "top"></h1>
+            <h1 class = "bottom"></h1>
+            
+        </div>
+        <div id = "imageBox2">
+                <h1 class= "top2"></h1>
+                <h1 class = "bottom2"></h1>        
+        </div>
+        <div id = "imageBox3">
+                <h1 class= "top3"></h1>
+                <h1 class = "bottom3"></h1>        
+        </div>
+        <div id="clear"></div>
+    </div>
+    
+</div>
+        <button id="kill">Destroy Meme(s)</button>
+        
+    <script src="main.js"></script>
+</body>
+</html>
